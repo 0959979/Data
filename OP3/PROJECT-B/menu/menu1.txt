@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigationView">
+
+    <group android:checkableBehavior="single" >
+
+
+        <item
+            android:id="ProductsId"
+            android:title="Products"
+            android:icon="@drawable/ic_launcher_background" />
+
+        <item
+            android:id="MyItemsId"
+            android:title="My Items"
+            android:icon="@drawable/ic_launcher_background" />
+
+        <item
+            android:id="NotificationsId"
+            android:title="Notifications"
+            android:icon="@drawable/ic_launcher_background" />
+
+        <item
+            android:id="HelpId"
+            android:title="Help"
+            android:icon="@drawable/ic_launcher_background" />
+
+
+        <item
+            android:id="SettingsId"
+            android:title="Settings"
+            android:icon="@drawable/ic_launcher_background" />
+
+        <item
+            android:id="LogOutId"
+            android:title="Log out"
+            android:icon="@drawable/ic_launcher_background" />
+
+
+
+
+
+
+
+    </group>
+
+
+
+    </menu>

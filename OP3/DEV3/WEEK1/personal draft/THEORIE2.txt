@@ -1,0 +1,10 @@
+- Today's lesson was the same lesson of last lesson but with different teacher, we've got a second teacher, the Italian one,
+ he is very nice and he explains in a very nice way.
+- Important notes:
+-difficult languages like C# are good for long time preservation because you kill lots of Bugs even before you start running the program.
+-A strong programming language is a language that makes it easier to write programmes with less Bugs!
+- In C#, what happens between If and Else stays between If and Else!!
+don't forget the semi colon at the end!
+-the VAR means that you declare a variable without giving it a type and that the value you use for this variable will give him the type!
+- the VOID term means that the variables in the Type-Chek process are declared without values.
+- In the evening I went the Bib after my meeting with Marianne, and there I studied the Analyse programes, clock, student, and interaction. And then I have solved ALL Grandeomega opdrachten behalve one backward, namely BA6, the excersice  was wron. (Not my fout)

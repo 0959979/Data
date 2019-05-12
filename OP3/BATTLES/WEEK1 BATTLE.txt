@@ -1,0 +1,34 @@
+ANALYSE:
+Review the slides of week 1 from Reza and Andrea and study 
+the 3 programmes that Reza gave on classes
+- Learn more about __init__ and self
+--------------------------------------------------------------------------------------------------------------
+DEVELOPMENT:
+Read the lecture reader again and solve the excersices again.
+--------------------------------------------------------------------------------------------------------------
+SKILLS:
+Make a  search on what interview schema is and					( Done )
+ make one + read the modulewijzer.						( Done )
+--------------------------------------------------------------------------------------------------------------
+PROJECT:
+1- Read the modulewijzer + understand the project.
+2- Check the product backlog 
+3- Follow JAVA curses;
+4- Follow android studio curses.
+5- Follow Github cursus
+6- Understand what the Doelgroep is.
+--------------------------------------------------------------------------------------------------------------
+ICT SECURITY:
+Make search on what Cyber-law is and think of an idea 
+for the presentation.
+- Watch Big Data & Big Brother again
+--------------------------------------------------------------------------------------------------------------
+HERKANSINGEN:
+-Read the lecture of week1 DEV2 and make all the excersices.
+-Study slides of week1 Analyse and make end of functions, 
+relations, injection, bijection and surjection.
+--------------------------------------------------------------------------------------------------------------
+
+
+
+

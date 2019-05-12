@@ -1,0 +1,183 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+As from the beginning of the 3rd Blok I have watched some videos on(Android studio, SQL, C#, GIT and GITHUB)
+----------------------------------------------------------------------------------------------------------------------------------
+Friday 08 - 02 - 2019: I have studied the first lecture of ANAL 2 (object oriented programming) and searched more on that 
+subject, and I have installed SQL on my laptob and watched a tutorial from an Iraqi guy that explains SQL very well:
+ (https://www.youtube.com/watch?v=kQYrM1YKoJo&list=PLF8OvnCBlEY02W4yz1csvydEZBd50KJZd&index=1)
+-----------------------------------------------------------------------------------------------------------------------------------
+Saturday 09 - 02 - 2019: I have created my onedrive school acount and used it to save photos from my phone, and Nasr advised 
+me to install windows 10 pro, sothat I can use Linux on it
+and he advised me to study sharepoint and power BI
+------------------------------------------------------------------------------------------------------------------------------------
+Sunday 10 - 02 - 2019 : I have studied the first lecture of DEV3 (Typechecker in C#), and I have created the Report folder in 
+PO3 folder on my device and started to report everything I do that is connected to my study.
+changed the Grandeomega password to my new official password ending with *
+-----------------------------------------------------------------------------------------------------------------------------------
+Monday 11 - 02 - 2019 (Beginning of WEEK1)**********:
+- Basic search of what fractions are (python documents)
+ANALYSE:
+- started with learning OOP (object orianted programming)
+- Objects can be found everywhere, person, mobile, house, computer, bag, watch.
+- Wrote a program to get and set time, used a class, and got to know what __init__ is.
+- now I know what is the difference between functions and classes and that classes can
+ give more attributes to objects and 
+that using a class we can let different objects comunicate with eachother.
+- learned that objects must be created inside the class.
+- encountered the problem of indentation and the teacher helped me to solve it. 
+- when we model a camel class for example, we can have two objects, a camel in the zoo, 
+and a camel that can be used for transportation, they both have same attributes but the second object 
+has more attributes, the advantage of this class is that use the first objects attributes
+ and modify them to the second object. so you can use attributes from the first camel 
+and adjust them on the second camel.
+DEVELOPMENT:
+- when naming a variable in C# , we can use the type TUPLE. example :
+(string , int) p = ("Ahmad", 25)
+- Item is the argument inside the tuples, so if we have two arguments inside a tuples we say we have item1 and item 2, 
+but we can also name the items, we do so by edditing the type:
+(string name, int age) p = (Ahmad, 25) 
+- in C# we have something called the type checker, so when you assign varible to a type, int for example, you cann't 
+assign a string to the same variable because the computer expects an integer.
+- When you assign a value to a variable inside an if statement or for/while loop, the variable gets a value, 
+when you are outside the statement, you must define assign a type and a value to that variable. 
+and it gets a special type in the backend :
+	check(<e1 + e2>, T) -----> <E> --------> check (<e1>, T) ------><E>, T ----------> check (<e2>, T) ---------> <E>, T
+-----------------------------------------------------------------------------------------------------------------------------------
+Tuesday 12 - 02 - 2019:
+- I began my day with a cancelled train in Utrecht centraal and then there was an accident between Rotterdam and Gouda
+so we had to travel first to Den Haag Centraal and then to Rotterdam.
+In the train I have made a new file called Opdracht uitleg, it's meant to explain the multiple choice questions of Development.
+- I have explaind the first 14 MC questions from grandeomega in the opdracht uitleg.
+- I have downloaded visual studio again to use C#
+- I have downloaded mono for grandeomega.
+- I have downloaded grandeomega again
+- created google drive for my new groop (Gijs - Suman - Nils - Conor - Saad) and and we have made a github repository and discord room
+- we have chosen for the Techlab Project and as a start we have to make individua interviewschema and we must make the product backlog
+ that we will get from Recardo and a sprint backlog, and also the doelgroep**************************************
+- for this project we have to work on Java and our API can be done using python
+- for the project I have to know : API - python - Java - SQL - Android studio - github and git
+
+KEUZEVAK:
+- presentatie geven (week 3)  : Cyperrecht - Cyperlaw -  samen met Cindi (praktijk)
+- youtube video : Big data & Big brother
+- we chose 3 apps and talked about the possibility that hackers can get our data from them:
+google maps: locations  - work place - univercity - school - vacation - transportation
+spotify : cultural background - music preference - mental analyse - bed time - wake up time
+chrome : hackers can know everything about me if they can get my account, or if my information are stolen
+example: religion - sexual preference - relations - political opinions 
+- nice idea from the teacher : make different pasword for each account, and it doesn't need to be difficult, you can make
+it very simple ! example : Rodetafel** NAME OF THE ACCOUNT 
+- I have to read the modulewijzer.
+-----------------------------------------------------------------------------------------------------------------------------------
+Wednesday 13 - 02 - 2019:
+ANALYSE:
+-We have made a review on the last lesson and wrote 3 programmes which I saved in the folder ANALYSE3/WEEK1.
+-some nice notes:
+a nice example of why is the Account number not considered as an ID? look to the car licence, It is the same situation but what 
+if you replace the licence to your new car? then is the licence not more an ID! thats why every object has a specia ID
+- Important subject: Classes interaction, you can let objects interact with eachother, look to interaction.py
+-I have to learn more about __init__ and self.
+DEVELOPMENT:
+- Today's lesson was the same lesson of last lesson but with different teacher, we've got a second teacher, the Italian one,
+ he is very nice and he explains in a very nice way.
+- Important notes:
+-difficult languages like C# are good for long time preservation because you kill lots of Bugs even before you start running the program.
+-A strong programming language is a language that makes it easier to write programmes with less Bugs!
+- In C#, what happens between If and Else stays between If and Else!!
+don't forget the semi colon at the end!(;)
+-the VAR means that you declare a variable without giving it a type and that the value you use for this variable will give him the type!
+- the VOID term means that the variables in the Type-Chek process are declared without values.
+- In the evening I went the Bib after my meeting with Marianne, and there I studied the Analyse programes, clock, student, and interaction. 
+And then I have solved ALL Grandeomega opdrachten behalve one backward, namely BA6, the excersice  was wron. (Not my fout)
+-After the gym I went to Utrecht and on my way I read the scope chapter from the lecture reader of week 1 Dev.
+-Even thoug you cann't use a variable outside of its scope, you can not even declare it again, because the type checker
+doesn't forget that you have declared it once!
+-----------------------------------------------------------------------------------------------------------------------------------
+Thursday 14 - 02 - 2019 :
+- I traines on Grandeomega week 1
+- I found a website to learn java code examples, and i can train there and answer questions
+-I asked Debohra about BA6 and she helped me out, I had to change the type according to the lecture reader,adding (var)
+-I have finished all opdrachten van week1.
+- Debohra said that we have to read the modulewijzer van Dev3 sothat we can know some tricks. 
+-Debohra mentioned 3 differences between Python and C#: 
+1 in C# we use this {   and here we write our program, and indentation doesn't matter}
+2 in C# we use double qutation " " for string  instead od single qutations '  ' in Python
+3 in C# there is an important factor, the Type-Checking... so we have to write the type of the variable before declaring it,
+for example: int x = 5 . that is good. But we can not write x = 5 like in Python
+-I read a bit of Andrea slides, they liik good, and I will use them in my study
+-I made a folder called HERKANSINGEN for DEV2 and ANAL2.
+-I made a folder BATTLES, in this folder I will plan a battle every week to review every
+week by itself, inclusief the herkansingen.
+-I searched for the interviewschema and wrote een verslag over interviewschema, I still need to make an example
+over the interviewschema. 
+- I wrote an interviewschema example but i still need toe write an interviewschema about doelgroep analyze
+-----------------------------------------------------------------------------------------------------------------------------------
+Friday 15  - 02 - 2019 :
+- On the way to Utrecht I have read a bit about groepsdoel and then went to the mosque to sheick Azzedine Karrat.
+- After friday prayer I studied a bit about classes and __name == __main .
+- I read from Andrije slides on Analyse 2
+-----------------------------------------------------------------------------------------------------------------------------------
+Saturday 16 - 02 - 2019:
+I have installed Java again on my laptop and put it in the right path.
+I have installed eclipse but It didnt work
+-----------------------------------------------------------------------------------------------------------------------------------
+Sunday 17 - 02 - 2019:
+I have made the interviewschema (Het Techlab)
+----------------------------------------------------------------------------------------------------------------------------------
+Monday 18 - 02 - 2019 (Beginning of WEEK2)**********:
+-My group and I met at school and we made the sprint backlog for the currnt sprnt and it went
+over the layout of our project and and the first basics.
+-ANALYSE:
+-Today's lesson was over UML unified modeling language:
+Static attribute is an attributes that comes out the interaction of two objects attribution, example:
+class graduated students, we have two objects student1+student2, but the new attribute is the graduated students.
+inheritense: object inherits an attribute from class, example: employee inharets attributes from class person.
+a sort of objects is an objects that has onother object inside itself.
+I have to learn more about fractions.
+I have to learn more about abstract.
+private: the book in the library/ Encapsulation
+incapsulation is implementetion of abstruction.
+important slides: 9 + 13
+- In the end of the lesson I downloaded Intellij IDEA Community Edition, in order to write Java programes
+DEVELOPMENT:
+R f (T1 t1, T2 t2, Tn tn) {
+		e
+   		} 
+in the previews program, e has the same type as R
+Func<T1 t1, T2 t2, Tn tn, R>    -----> this is the type of the function, we call it Funk.
+control flow:
+		P 	 U	  Q
+		bool		void--------->	bool
+		bool		bool--------->	bool
+		void		bool--------->	bool
+		void		void--------->	void
+-I have to understand the design pattern: functions with one argument that returns another function with one argument.
+- I have to understand the then function and what it does.
+I HAVE TO UNDERSTAND WHAT THE CLOSURE IS.
+KEUZEVAK:
+I met with Cendy and we discussed about the presentation and we decided to divide the tasks and I will talk about:
+1 The opening
+2 The definetion of Cyberlaw
+3 Cyber crime
+4 cyber warfare
+5 I have to make questions from my pieces and send them to Cendy sothat she can make a kahoot game.
+6 Currying (Iedere keer een argument invulle die functie terug geeft)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Tuesday 19 - 02 - 2019:
+SKILLS:
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Woensday 20 - 02 - 2019:
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Thursday 21 - 02 - 2019 :
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Friday 22 - 02 - 2019 :
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Saturday 23 - 02 - 2019:
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Sunday 24 - 02 - 2019:

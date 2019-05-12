@@ -1,0 +1,55 @@
+MCQ1:
+We would check the type of the evaluation <0 + 5> and that is an integer, so the answer is (int, B)
+
+MCQ2:   ***
+We get an error because a boolean cann't be added to a string 
+
+MCQ3: ***
+
+
+MCQ4: ***
+
+MCQ5:  
+
+MCQ6:
+We get a type error because an integer cannot be equal to a string.
+
+MCQ7: ***
+
+
+MCQ8:
+We get an error cause the variable Y is already declared as y = x + 1 , so it doesn't make sense that we give it different
+value, namely y = y + 1
+
+MCQ9:
+The same as in MCQ8 , see above.
+
+MCQ10:
+Again the same as MCQ8. see above.
+
+MCQ11:
+as the quastion is what is (C) typecheck, we look to its type, and because it comes after the if statemenet as a value,
+so it must be a bool.
+
+MCQ12:
+The word (item) means here an argument of the tuple, and because we are searching for item2, second item, we 
+look to the tuple and we see that the second item in the tuple is an integer.
+
+MCQ13:
+the first element is an integer, the second is obviously a string, so we get:
+((int, string), {})
+
+MCQ14:
+To be continued (;
+
+
+
+
+
+
+ 
+
+
+
+
+

@@ -1,0 +1,6 @@
+ANALYSE:
+-We have made a review on the last lesson and we wrote 3 programmes which I saved in the folder ANALYSE3/WEEK1.
+-some nice botes:
+a nice example of why is the Account number not considered as an ID? look to the car licence, It is the same situation but what if you replace the licence to your new car? then is the licence not more an ID! thats why every object has a specia ID
+- Important subject: Classes interaction, you can let objects interact with eachother, look to interaction.py
+-I have to learn more about __init__ and self.

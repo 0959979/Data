@@ -1,0 +1,12 @@
+- when naming a variable in C# , we can use the type TUPLE. example :
+(string , int) p = ("Ahmad", 25)
+- Item is the argument inside the tuples, so if we have two arguments inside a tuples we say we have item1 and item 2, 
+but we can also name the items, we do so by edditing the type:
+(string name, int age) p = (Ahmad, 25) 
+- in C# we have something called the type checker, so when you assign varible to a type, int for example, you cann't 
+assign a string to the same variable because the computer expects an integer.
+- When you assign a value to a variable inside an if statement or for/while loop, the variable gets a temporary value, 
+when you are outside the statement, you must define assign a type and a value to that variable. 
+or you can assign a type and value to the same variable but in the globals, so before the statement,
+ and it gets a special type in the backend :
+	check(<e1 + e2>, T) -----> <E> --------> check (<e1>, T) ------><E>, T ----------> check (<e2>, T) ---------> <E>, T
