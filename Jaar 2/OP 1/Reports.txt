@@ -1,0 +1,31 @@
+Maandag 9 sep 2019 ; Report 1
+Skills:
+Vandaag was een introductie en wij hoeften alleen te weten wat we gedurende het jaar 
+moeten doen. Wij moeten namelijk doorgaan met interviewen en onze skills verbeteren.
+Vandaag hebben we geleerd hoe we problemen kunnen analyseren, en wij hebben twee moethoden gekozen:
+- De 6w methode
+- De Obstakel
+Wij moeten een probleem bij een bedrijf zoeken en die analyseren om tot een oplossing te komen.
+Opdracht:
+Een probleem analyseren en het voorbereiden voor pitchen.
+---------------------------------------------------------------------------
+Project:
+Wij gaan een complexe app implementeren. Wij moeten heel goed op deze letten:
+- de app moet complex zijn, bijv. de zoek functie moet meerdere functionaliteit hebben dan alleen het zoeken.
+ Bijv. keuzes geven.
+-Wat is nou de echte definitie van Done?
+-Wij moeten onze product goed kunnen testen.
+-Wij moeten onze product owner altijd tevreden maken.
+-Onze product owner heeft het recht om onze product goed of af te keuren.
+-De acceptatie criteria, bijv. de regestratie veld, moeten alle vakken gevuld worden of alleen de verblichte vakken?
+-Je moet altijd actieve zijn en je moet aantonen dat je bezig bent en als je ergens hulp nodig hebt moet je dat
+van tevoeren aangeven zodat je eerder hulp kan krijgen.
+-Niet vergeten om comments bij je code te schrijven, je code moet goed, helder en zichtbaar zijn.
+----------------------------------------------------------------------------
+SLC:
+Wij hebben ook introductie les gekregen,waarschijnlijkt moeten we doorwerken aan onze portfolio,hij moet professioneel deruit zien.
+Dit jaar gaan we focusen op het vinden van stage, en het maken van een professionele portfolio.
+Plus stiumuleren tot nadenken over wie je eigenlijk bent en wat je echt kan doen, en wat je wilt doen qua werk.
+Wij gaan ook leren soliciteren en motivatie brief schrijven.
+En wij gaan onze kennis overdragen!
+***************************************************************************************************************************************
