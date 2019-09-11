@@ -47,4 +47,7 @@ Belangrijke punten:
 Volgede week gaan we het hebben over stress.
 Vanavond hebben we geen opdracht gekregen en wij hoeven ons niks voor volgende week te bereiden.
 ****************************************************************************************************************************************
-
+Woensdag 11 sep 2019 ; Report 3
+Vandaag hadden we een development les, het ging namelijk over Database. Wij kreegen een introductie tot database en er werd een querey aangemaakt
+door de docent. Wij hebben geleerd wat databases zijn en hoe maken wij een querey aan en wat premiery keys en forign keys zijn.
+Keywords: 
