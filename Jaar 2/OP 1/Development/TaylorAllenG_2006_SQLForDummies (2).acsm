@@ -1,0 +1,33 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:501e16ca-f45c-4a0c-9a9f-8a270a9f2ed6</distributor>
+  <operatorURL>http://rps2images.ebscohost.com/fulfillment</operatorURL>
+  <transaction>s6195671:12906775:164762:1568200790121:638761472</transaction>
+  <expiration>2019-09-11T13:19:50-04:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:025ea68e-853b-4a80-bb07-af0c1ab664f5</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">SQL for Dummies</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Taylor, Allen G.</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">John Wiley &amp; Sons, Inc. (trade)</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:025ea68e-853b-4a80-bb07-af0c1ab664f5</resource>
+      <permissions>
+        <display>
+          <until>2019-10-09T07:16:50-04:00</until>
+        </display>
+        <excerpt>
+          <until>2019-10-09T07:16:50-04:00</until>
+          <count initial="15"/>
+        </excerpt>
+        <play>
+          <until>2019-10-09T07:16:50-04:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>OEGHCDY/4J3Heh2HrRQpK9s6yzg=</hmac>
+</fulfillmentToken>
