@@ -51,3 +51,15 @@ Woensdag 11 sep 2019 ; Report 3
 Vandaag hadden we een development les, het ging namelijk over Database. Wij kreegen een introductie tot database en er werd een querey aangemaakt
 door de docent. Wij hebben geleerd wat databases zijn en hoe maken wij een querey aan en wat premiery keys en forign keys zijn.
 Keywords: 
+
+****************************************************************************************************************************************
+Donderdag 12 sep 2019 ; Report 4
+Vandaag was Ik eerder naar school gekomen ik ging eerst de laptop van de balie ophalen daarna zat ik even postgresql te studeren.
+Analyse:
+Vandaag was de eerste Analyse les, het is wel een leuke begin. Wij gaan networking leren. En Reza is onze docent.
+Vandaag hebben we een introductie gehad en hebben geleerd wat de benodigde materialen voor deze cursus zijn, namelijk:
+Wireshark - CISCO packet tracer and Socket Library.
+En wij moeten dingen begrijpen zoals: TCP/IP and Socket and Software protocols.
+Ik heb 70 procent van de les samengevat in mijn schrift en nu ga ik de laptop weer inleveren en daarna ga ik een beetje in de trein studeren,
+vandavond heb Ik een afspraak met de politie over mijn gestolen laptop.
+*****************************************************************************************************************************************
