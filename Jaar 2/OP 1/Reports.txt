@@ -77,6 +77,10 @@ Wij hebben onze idee aan de PO verteld en wij hebben namelijk voor de zorg appli
 gaan een webshop ontwikkelen die met zorg te maken heeft. Wiuj hebben ook de product backlog opgezet 
 plus sprint 1.
 
+SLC:
+Wij hebben het vandaag gehad over het voorbereiden voor stage, 
+het enige wat ik momenteel moet doen is een plek zoeken waar ik stage wil lopoen.
+
 *****************************************************************************************************************************************
 Dinsdag 17 sep 2019 ; Report 7
 Vandaag hebben we een opdracht gekregen, wij moesten namelijk 30 minuten stilstaan... was fucking lastig.
