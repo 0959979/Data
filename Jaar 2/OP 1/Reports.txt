@@ -89,3 +89,29 @@ De laatste opdracht was hetzelfde maar het ging wel stukje beter.
 En voor volgende week hebben we een opdracht, een presentatie voorbereiden. 
 Van 3 minuten en moet doormiddel van powerpoint gemaakt worden.
 *****************************************************************************************************************************************
+Maandag 23 sep 2019 ; Report 8
+Skills:
+Vandaag hadden we het over vergaderen:
+- Voorbereiding				- Structuur			-Doelen
+-Mindmap				-Iedereen moet een keertje voorzitter/Notulist zijn
+-Rollen: Voorzitter/Notulist/Deelnemer/ -Rondvragen			-Punten voor volgende vergadering
+-Afsluiting.
+
+Projec ----->  Notities
+Testen moet elke sprint gebeuren**
+Eerst moeten we info kunnen uitwisselen, as a shepable product.
+Wij moeten sprint backlog aanpassen(info uitwisselen)*
+Developer is geen onderdeel van de user story*
+Testen van Errors per programeur (checklijst moet voldoen aan de regels)**
+Elke product moet getest worden met een methode (unit test)**
+Wij moeten een test plan hebben + methode + Wat doen we daarmee?
+Technisch onderwerp?? Specification requirements
+Scrum documentatie als notities , hoef geen foro's
+Individueel contributie is heel belangrijk.
+Moet tenminste 15 uur perweek werken.
+Iedereen moet zelf programmeren.
+Vandaag hebben we git goed opgested en wij hebben eigen branches aangemaakt, En ik ga beginnen aan 
+de specification requirements plus doorgaan met React tutorials en HTML + CSS.
+*****************************************************************************************************************************************
+
+
