@@ -1,0 +1,11 @@
+
+
+
+
+Difference between Models, COntrollers and views:
+	Models:
+
+	Views:
+
+	Controllers:
+
