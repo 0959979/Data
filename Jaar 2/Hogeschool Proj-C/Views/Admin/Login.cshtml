@@ -1,0 +1,12 @@
+<h2>Login</h2>
+<p>Enter all fields and press submit</p>
+
+<form asp-action="Login" method="post">
+    Username:<br>
+    <input type="string" required name=username id="username"><br>
+    Password:<br>
+    <input type="password" required name=password id="password"> <br><br>
+    <input type="submit" value="Login" id="submit">
+</form>
+
+<h4>@ViewBag.emptyfield</h4>

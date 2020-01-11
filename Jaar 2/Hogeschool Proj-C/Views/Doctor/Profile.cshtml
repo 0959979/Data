@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<svg height="130" width="500">
+		<defs>
+			<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+				<stop offset="0%"
+					  style="stop-color:rgb(200,50,90);stop-opacity:1" />
+				<stop offset="100%"
+					  style="stop-color:rgb(50,20,80);stop-opacity:1" />
+			</linearGradient>
+		</defs>
+		<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+		<text fill="#fff" font-size="26" font-family="Verdana"
+			  x="45" y="80">ZorgApp</text>
+		Sorry, your browser does not support inline SVG.
+	</svg>
+
+</body>
+</html>
+
+
+<h2>Personal page of Dr. @ViewBag.username </h2>
+
+
+<html>
+<head>
+	<style>
+		table, th, td {
+			border: 0.1px solid black;
+			border-collapse:separate;
+		}
+
+		th, td {
+			padding: 10px;
+		}
+
+		th {
+			text-align: left;
+		}
+	</style>
+</head>
+<body>
+	<h3>My information</h3>
+	<table style="width:25%" id=DoInfo>
+		<tr>
+			<th>Username: @ViewBag.username</th>
+		</tr>
+		<tr>
+			<th>First name: @ViewBag.firstname</th>
+		</tr>
+		<tr>
+			<th>Last name: @ViewBag.lastname</th>
+		</tr>
+
+		<tr>
+			<th>Email: @ViewBag.email </th>
+		</tr>
+		<tr>
+			<th>Telephone number: @ViewBag.phonenumber</th>
+		</tr>
+		<tr>
+			<th>Specialization: @ViewBag.specialism</th>
+		</tr>
+	</table>
+	<form action="UpdateAccount"> <br>
+		<input type="submit" value="Edit" />
+	</form>
+</body>
+</html>

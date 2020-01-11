@@ -1,0 +1,13 @@
+﻿<h2>Get authorization to view another patient's profile</h2>
+<p>You can get authorization to view another patient's profile by using their authorization code</p>
+
+
+<form asp-action="ConfirmAuthorization" method="post">
+    Username of the patient you would like to view:<br>
+    <input type="string" required name="Username" id="Username"><br>
+    Their authorization code:<br>
+    <input type="string" required name="Code" id="Code"><br>
+    <input type="submit" value="Confirm Authorization" id="submit" asp-controller="Patient" asp-action="ConfirmAuthorization">
+</form>
+<br> 
+

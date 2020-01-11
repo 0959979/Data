@@ -1,0 +1,54 @@
+﻿@model zorgapp.ViewModels.AppointmentViewModel
+@{
+    ViewData["Title"] = "Test";
+}
+
+<h2>Appointment List</h2>
+
+<form>
+    <select name="caseid">
+        @foreach (var item in Model.Cases)
+        {
+            <option value="@item.CaseId">@item.CaseId</option>
+        }
+
+    </select>
+    <br><br>
+    <input type="submit" value="Submit" id="submit" asp-controller="Doctor" asp-action="AppointmentList">
+</form>
+
+<h2>@ViewBag.ID</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Case Id
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Info
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Appointments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CaseId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Info)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

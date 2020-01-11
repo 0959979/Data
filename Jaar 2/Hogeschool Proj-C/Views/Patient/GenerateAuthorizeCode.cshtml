@@ -1,0 +1,14 @@
+﻿<h2>Generate authorization code</h2>
+<p>You can generate a limited-use code which can be used by another user to get authorization to view your profile</p>
+
+
+<form asp-action="GenerateNewCode" method="post">
+    How many uses would you like this code to have?<br>
+    <select required name="Uses">
+        <option value="1"> 1</option>
+        <option value="2"> 2</option>
+        <option value="3"> 3</option>
+    </select><br>
+    <input type="submit" value="Generate new code" id="submit" asp-controller="Patient" asp-action="GenerateNewCode">
+</form>
+<br />

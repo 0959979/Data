@@ -1,0 +1,14 @@
+﻿@model zorgapp.ViewModels.TestListViewModel
+<h2>Test Page</h2>
+
+<form asp-action="StartTest" method="post">
+    Test:<br>
+    <select name="TestId">
+        @foreach (Tuple<string,string> t in Model.tuples)
+        {
+            <option value="@t.Item1">@t.Item2</option>
+        }
+    </select><br>
+    <br>
+    <input type="submit" value="Run" id="submit">
+</form>

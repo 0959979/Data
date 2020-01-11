@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+
+<h2>Send Message</h2>
+<p>Enter all fields and press send</p>
+
+<form method="post">
+    Recipient username:<br>
+    <input type="string" required name=receiver id="receiver" value="@ViewBag.reply"><br>
+    Subject:<br>
+    <input type="string" required name=subject id="subject"><br>
+    Message:<br>
+    <textarea type="string" required name=text id="text" rows="15" cols="30" placeholder="Message"></textarea> <br><br>
+    <input type="submit" value="Submit" id="submit" asp-controller="Patient" asp-action="Message">
+</form>
+
+<h4>@ViewBag.emptyfield</h4>
+
+</html>
+

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+@model zorgapp.ViewModels.NewAppointmentViewModel
+
+<h2>Create a appointment</h2>
+    <th>
+        <input type="button"
+        value="Create case"
+        onclick="location.href='@Url.Action("CreateCase","Doctor")'"/>
+    </th>
+<p>Enter all fields and press submit</p>
+
+<form method="post">
+	
+	Case Name:
+	<select name="caseid">
+		@foreach (Case s in Model.Cases)
+		{
+		<option value="@s.CaseId">@s.CaseName</option>
+		}
+	</select>
+	Info:
+	<input type="string" required name="info" id="info">
+	<input type="datetime-local" required name="date" id="date" />
+		    
+	<input type="submit" value=" Make new appointment" asp-controller="Doctor" asp-action="CreateAppointment">
+	
+</form>
+
+
+</html>

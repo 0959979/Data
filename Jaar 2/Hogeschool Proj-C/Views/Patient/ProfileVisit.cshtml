@@ -1,0 +1,115 @@
+﻿@model zorgapp.ViewModels.ProfileViewModel
+<!DOCTYPE html>
+
+<h2>Personal page of @Html.DisplayFor(model => model.UserInfo.UserName) </h2>
+
+
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 0.1px solid black;
+            border-collapse: separate;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h3>My information</h3>
+    <table style="width:25%" id=DoInfo>
+        <tr>
+            <th>First Name: @Html.DisplayFor(model => model.UserInfo.FirstName)</th>
+        </tr>
+        <tr>
+            <th>Last Name: @Html.DisplayFor(model => model.UserInfo.LastName)</th>
+        </tr>
+        <tr>
+            <th>Phonenumber: @Html.DisplayFor(model => model.UserInfo.PhoneNumber)</th>
+        </tr>
+        <tr>
+            <th>Email: @Html.DisplayFor(model => model.UserInfo.Email) </th>
+        </tr>
+    </table>
+</body>
+</html>
+<br />
+<h3> Medicines</h3>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Mg
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Medicines)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateStart)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEnd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mg)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<h3>Appointments</h3>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Info
+            </th>
+            <th>
+                Date
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Appointments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Info)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

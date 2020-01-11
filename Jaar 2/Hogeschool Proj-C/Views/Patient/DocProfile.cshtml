@@ -1,0 +1,21 @@
+@model zorgapp.Models.Doctor
+
+<h2><strong>Doctor ID: @Html.DisplayFor(model => model.DoctorId) </strong></h2>
+
+
+<ul style="list-style-type:none;">
+    <li> <strong>Firstname:</strong> @Html.DisplayFor(model => model.FirstName)</li>
+    <li> <strong>Lastname:</strong> @Html.DisplayFor(model => model.LastName) </li>
+    <li> <strong>Specialism: </strong>@Html.DisplayFor(model => model.Specialism) </li>
+    <li> <strong>Phonenumber:</strong> @Html.DisplayFor(model => model.PhoneNumber) </li>
+    <li> <strong>Email: </strong>@Html.DisplayFor(model => model.Email) </li>
+</ul>
+
+<ul>
+        <strong>Local ID: </strong>
+    @foreach (var item in Model.LocalId)
+    {
+        <li> @item </li>
+
+    }
+    </ul>

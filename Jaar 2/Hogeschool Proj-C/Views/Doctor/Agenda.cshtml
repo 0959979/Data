@@ -1,0 +1,105 @@
+﻿@model zorgapp.ViewModels.AgendaViewModel
+@{
+    ViewData["Title"] = "Agenda";
+}
+<br>
+<form asp-controller="Doctor" asp-action="Agenda" method="post">
+    <h2>Agenda</h2>
+    @ViewBag.Recieved
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>
+                    <input type="submit" name="previous" value="Previous" />
+                    <input type="hidden" name="dayoffset" value="@Model.dayOffset" />
+                </th>
+                <th></th>
+
+                <th><input type="submit" name="next" value="Next" /></th>
+                <th>
+                    <input type="button"
+                    value="Create appointment"
+                    onclick="location.href='@Url.Action("CreateAppointment","Doctor")'"/>
+                </th>
+                <th>From <input type="number" name="starthour" value="@Model.Hoursi.First()" min="0" max="24" pattern="[0-9]" /></th>
+                <th>To <input type="number" name="endhour" value="@Model.Hoursi.Last()" min="0" max="24" pattern="[0-9]" /></th>
+                <th><input type="submit" name="apply" value="Apply" /></th>
+            </tr>
+            <tr>
+                <th bgcolor="#e6e6e6">
+                    <h4>Time</h4>
+                </th>
+                @for (int d = 0; d < 7; d++)
+                {
+                    @if (Model.CurrentDate == d && Model.sameWeek)
+                    {
+                        <th bgcolor="#e6e6ff">
+                            <font>
+                                <h4>@Html.DisplayFor(modelItem => Model.Days[d])</h4>
+                                <h5>@Html.DisplayFor(modelItem => Model.Dates[d])</h5>
+                            </font>
+                        </th>
+                    }
+                    else
+                    {
+                        <th>
+                            <h4>@Html.DisplayFor(modelItem => Model.Days[d])</h4>
+                            <h5>@Html.DisplayFor(modelItem => Model.Dates[d])</h5>
+                        </th>
+                    }
+
+                }
+            </tr>
+        </thead>
+</form>
+
+<tbody>
+    @for (int h = 0; h < Model.Hours.Count(); h++)
+    {
+        string hour = Model.Hours[h];
+        int houri = Model.Hoursi[h];
+        <tr>
+            <td bgcolor="#f2f2f2">
+                @Html.DisplayFor(modelItem => hour)
+            </td>
+
+            @for (int d = 0; d < 7; d++)
+            {
+                @if (Model.CurrentDate == d && Model.sameWeek)
+                {
+                    <td bgcolor=#f8f9ff>
+                        @foreach (var App in Model.Appointments)
+                        {
+                            @if (App.Date.Hour == houri && App.Date.DayOfWeek.ToString() == Model.Days[d])
+                            {
+                                <form asp-controller="Doctor" asp-action="EditCase" method="post">
+                                    @App.Date.ToShortTimeString():<br>
+                                    <input type="submit" name="Submit" value="@App.Info">
+                                    <input type="hidden" name="caseId" value="@App.CaseId" />
+                                </form>
+                            }
+                        }
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @foreach (var App in Model.Appointments)
+                        {
+                            @if (App.Date.Hour == houri && App.Date.DayOfWeek.ToString() == Model.Days[d])
+                            {
+                                <form asp-controller="Doctor" asp-action="EditCase" method="post">
+                                    @App.Date.ToShortTimeString():<br>
+                                    <input type="submit" name="Submit" value="@App.Info">
+                                    <input type="hidden" name="caseId" value="@App.CaseId" />
+                                </form>
+                            }
+                        }
+                    </td>
+                }
+            }
+        </tr>
+    }
+</tbody>
+    </table>

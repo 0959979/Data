@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+
+<h2>Create a case</h2>
+<p>Enter all fields and press submit</p>
+
+<form method="post">
+    Case Id:<br>
+    <input type="string" required name=caseid id="caseid"><br>
+    Case name:<br>
+    <input type="string" required name=casename id="casename"><br>
+    Patient Id:<br>
+    <input type="int" required name=patientid id="patientid"><br> <br>
+    <font color="red">@ViewBag.emptyfield1</font><br>
+    <input type="submit" value="Submit" id="submit" asp-controller="Doctor" asp-action="CreateCase">
+</form>
+
+
+
+
+</html>
+

@@ -1,0 +1,108 @@
+@model zorgapp.ViewModels.ProfileViewModel
+<h2><strong>Patient ID: @Html.DisplayFor(model => model.UserInfo.PatientId) </strong></h2>
+
+<ul style="list-style-type:none;">
+    <li> <strong>Firstname:</strong> @Html.DisplayFor(model => model.UserInfo.FirstName)</li>
+    <li> <strong>Lastname:</strong> @Html.DisplayFor(model => model.UserInfo.LastName) </li>
+    <li> <strong>Phonenumber:</strong> @Html.DisplayFor(model => model.UserInfo.PhoneNumber) </li>
+    <li> <strong>Email: </strong>@Html.DisplayFor(model => model.UserInfo.Email) </li>
+</ul>
+<ul>
+    <strong>Local ID: </strong>
+    @foreach (var item in Model.UserInfo.LocalId)
+    {
+        <li> @item </li>
+
+    }
+</ul>
+
+<form method="post">
+    Add a local id:<br>
+    <input type="string" id="localid" name="localid" />
+    <input type="hidden" value="@Html.DisplayFor(model => model.UserInfo.PatientId)" id="patientid" name="patientid" />
+    <input type="submit" value="Submit" id="submit" asp-controller="Doctor" asp-action="AddLocalId">
+</form><br>
+<h3> Medicines</h3>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Start Date
+            </th>
+            <th>
+                End Date
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Mg
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Medicines)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateStart)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateEnd)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mg)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<input type="button"
+value="Add medicine"
+onclick="location.href='@Url.Action("AddMedicines","Doctor")'" />
+<br />
+<h3>Cases</h3>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Case Id
+            </th>
+            <th>
+                Case Name
+            </th>
+            <th>
+                Case Info
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Cases)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CaseId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CaseName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CaseInfo)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

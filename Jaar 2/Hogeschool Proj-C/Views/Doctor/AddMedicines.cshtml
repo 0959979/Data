@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+@model IEnumerable<zorgapp.Models.Patient>
+<html>
+<head>
+    <title>Add medicine</title>
+    <link rel="stylesheet" type="text/css" herf="style.css"
+</head>
+<body>
+    <div class="Midicines">
+        <h2>Add medicines</h2>
+        <form>
+            <input type="string" name="name" placeholder="Name medicine" required>
+            <input type="datetime-local" name="start_date" placeholder="Date of start"required>
+            <input type="datetime-local" name="end_date" placeholder="Date of end"required>
+            <input type="int" name="amount" placeholder="Amount per day"required>
+            <input type="int" name="patient_id" placeholder="ID of the patient"required>
+            <input type="float" name="mg" placeholder="Mg" required>
+            <input type="submit" value="Add medicine" id="submit" asp-controller="Doctor" asp-action="AddMedicines">
+        </form>
+    </div>
+    <h4> @ViewBag.message </h4>
+</body>
+</html>
+

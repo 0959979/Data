@@ -1,0 +1,95 @@
+﻿@model zorgapp.ViewModels.TestViewModel
+
+<h2>Test Page</h2>
+
+@if (Model.pass == true)
+{
+    <p>pass</p>
+}
+else
+{
+    <p>fail</p>
+}
+<table class="table-bordered">
+    <tbody>
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                @Model.id
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date & Time
+            </td>
+            <td>
+                @Model.time
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Test description
+            </td>
+            <td>
+                @Model.description
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Test steps
+            </td>
+            <td>
+                @Model.steps
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pass/fail criteria
+            </td>
+            <td>
+                @Model.criteria
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Test input
+            </td>
+            <td>
+                @Model.input
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Expected result
+            </td>
+            <td>
+                @Model.eresult
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Actual result
+            </td>
+            <td>
+                @Model.aresult
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Pass/fail
+            </td>
+            <td>
+                @if (Model.pass == true)
+                {
+                    <div>pass</div>
+                }
+                else
+                {
+                    <div>fail</div>
+                }
+            </td>
+        </tr>
+    </tbody>
+</table>

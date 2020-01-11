@@ -1,0 +1,43 @@
+@model IEnumerable<zorgapp.Models.Doctor>
+
+
+<h2>Doctorlist</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            
+            <td>
+                <form method = "post">
+                    <input type = "hidden" value="@item.DoctorId" id = "doctorid" name = "doctorid"/>
+                    <input type="submit" value="@Html.DisplayFor(modelItem => item.DoctorId)" id = "submit" asp-controller="Patient"
+                    asp-action ="DocProfile">
+                </form>
+            </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>

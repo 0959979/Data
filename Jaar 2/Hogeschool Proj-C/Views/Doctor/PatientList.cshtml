@@ -1,0 +1,47 @@
+@model IEnumerable<zorgapp.Models.Patient>
+
+
+<h2>Patientlist</h2>
+
+@* view the firstname, lastname and id of all the patients linked to the doctor logged in *@
+
+<h4 style="color:red">@ViewBag.message</h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            
+            
+            <td>
+                <form method = "post">
+                    <input type = "hidden" value="@item.PatientId" id = "patientid" name = "patientid"/>
+                    <input type="submit" value="@Html.DisplayFor(modelItem => item.PatientId)" id = "submit" asp-controller="Doctor"
+                    asp-action ="PatProfile">
+                </form>
+            </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>

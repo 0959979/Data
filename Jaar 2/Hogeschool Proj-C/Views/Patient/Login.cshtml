@@ -1,0 +1,23 @@
+﻿@model zorgapp.Models.Patient
+<!DOCTYPE html>
+
+
+
+
+<h2>Login</h2>
+<p>Enter all fields and press submit</p>
+
+<form asp-action="Login" method="post">
+    <input type="radio" name="type" value="patient" checked> Patient<br>
+    <input type="radio" name="type" value="doctor"> Doctor<br>
+    <input type="radio" name="type" value="admin"> Admin<br><br>
+    Username:<br>
+    <input type="string" required name=username id="username"><br>
+    Password:<br>
+    <input type="password" required name=password id="password"> <br><br>
+    <input type="submit" value="Login" id="submit">
+</form>
+
+<h4>@ViewBag.emptyfield</h4>
+
+</html>
