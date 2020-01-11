@@ -1,0 +1,9 @@
+Understanding ASP.NET routing:
+	A browser request gets mapped to a controller action through a feature of the ASP.NET 
+	framework called ASP.NET Routing. ASP.NET Routing is used by the ASP.NET MVC framework 
+	to route incoming requests to controller actions. 
+	
+	ASP.NET Routing uses a route table to handle incoming requests. This route table is created
+	when your web application first starts. The route table is setup in the Global.asax file.
+	
+
