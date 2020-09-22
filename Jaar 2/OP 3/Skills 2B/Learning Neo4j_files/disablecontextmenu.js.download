@@ -1,0 +1,1 @@
+﻿(function(a){a(function(){a("body").delegate("a.download",{contextmenu:function(b){ep.debug("download:disable-contextmenu");b.preventDefault();}});});})(jQuery);
