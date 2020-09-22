@@ -1,0 +1,16 @@
+Dinsdag 22 september 2020
+--------------------------
+Vandaag heb ik de data repo geupdate om alles te organiseren en reports te kunnen schrijven.
+Het is dinsdag, de drukke dag. vandaag heb ik de database lecture gemist(verslapen)
+en de networkinbg lecture gvolgd maar heb er weinig aan eerlijk gezegd.
+vandaag ga ik de protocols online op youtube studeren.
+Ik heb wel geleerd hoe ik connectie tussen meerdre apparaten aan kan sluiten.
+Het begint met het opstarten van een switch
+vervolgens maak je en apparaat aan
+ga naar (Config) en dan (fastethernet)
+schrijf een IP adres 192.168.1.? begint bij 1 t/m 9 bijvoorbeeld
+dan klik op de apparaat en kiez desktop/ prompt
+schrijf: ping 192.168.1.? 
+simulation mode maar kan ook realtime mode.
+Ik ga nu database opname terugkijken en vervolgens networking van YouTube studeren.
+--------------------------------------------------------------------------------------------
