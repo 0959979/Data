@@ -1,0 +1,24 @@
+Analyse 7 Software: First lesson / Afshin 15-02-2021
+---------------------------------------------------------
+What is Modeling?
+Software analysis and design
+++ Practice each lesson, otherise you will see urself infront  of toomuch symbols and each symbol could have different meanings.
+* part1 : Methodlogies -->
+	1Waterfall
+	2Incremental/ iterative
+	3Agile
+sw engineer is more than a programmer. He manages sw aswell.
+part 2: Requirements and modeling.
+What is system?
+modeling is a stimulation of reality.
+goals of modeling:
+	visualization, specification, guideline, documentation.
+modeling have different levels:
+	high-level models
+	Analysis level
+	Implementation level
+functional requirements: What should the system do?
+non-functional: How should the systim do this?
+part3: use case modeling:
+ucd = use case diagrams
+Actor-use cases ?
