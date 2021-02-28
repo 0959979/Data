@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{AEC8C729-BC1A-4200-A6E7-BF4151BE7A18}|Default">
+  <MonoDevelop.Ide.ItemProperties.SocketClient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Processes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Threads/Program.cs">
+    <Files>
+      <File FileName="SocketClient/Program.cs" Line="196" Column="47" />
+      <File FileName="SocketServer/ProgramSol.cs" Line="235" Column="44" />
+      <File FileName="SocketServer/Program.cs" />
+      <File FileName="Threads/Program.cs" Line="18" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Concurrency" expanded="True">
+            <Node name="ProcessCreation" expanded="True" />
+            <Node name="SocketClient" expanded="True" />
+            <Node name="SocketServer" expanded="True" />
+            <Node name="Threads" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PrimeNumbers PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Asynchrounous PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SocketServer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Semaphores/Semaphores.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/amighi/workspace/VSProjects/Concurrency/SocketServer/ProgramSol.cs" relfile="SocketServer/ProgramSol.cs" line="97" column="1" />
+      <Breakpoint file="/Users/amighi/workspace/VSProjects/Concurrency/SocketClient/Program.cs" relfile="SocketClient/Program.cs" line="100" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ProcessCreation PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MergeSort PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Threads PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

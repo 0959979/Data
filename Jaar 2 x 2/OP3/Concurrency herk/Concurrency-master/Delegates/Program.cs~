@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace Delegates
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Func<int,int> fun = x => x++;
+
+            int t = 0;
+            int res = fun(t);
+
+            Console.WriteLine("result is {0} , local variable is {1}", res, t);
+        }
+    }
+}

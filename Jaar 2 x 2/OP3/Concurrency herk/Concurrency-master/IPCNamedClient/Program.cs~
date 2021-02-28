@@ -1,0 +1,24 @@
+﻿using System;
+using System.IO;
+using System.IO.Pipes;
+
+namespace PipeClient
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Pipe client is being executed ...");
+                var server = new NamedPipeServerStream("PipesOfPiece");
+                server.WaitForConnection();
+                StreamReader reader = new StreamReader(server);
+                StreamWriter writer = new StreamWriter(server);
+                while (true)
+                {
+                    var line = reader.ReadLine();
+                    writer.WriteLine(String.Join("", line.Reverse()));
+                    writer.Flush();
+                }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+﻿using System;
+using System.Threading.Tasks;
+
+namespace Asynchrounous
+{
+    class ExamplesWeekFour
+    {
+        class ExampleTask
+        {
+            /// <summary>
+            /// This method presents how to define and run a task.
+            /// </summary>
+            public void runATask()
+            {
+                Task printingTask = Task.Run(() => { Console.WriteLine(); } );
+                Task<string> taskWithStringResult = Task.Run( () => { return " Hello World from a task."; });
+                Task<int> timeConsumingTask = Task.Run( () =>
+                {
+                    int r = 0;
+                    for (int i = 0; i < 1_000_000; i++)
+                        r += i;
+                    return r;
+                });
+               
+            }
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}

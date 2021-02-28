@@ -1,0 +1,10 @@
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient.deps.json
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient.runtimeconfig.json
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient.runtimeconfig.dev.json
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient.dll
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/bin/Debug/netcoreapp3.0/PipeClient.pdb
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/obj/Debug/netcoreapp3.0/PipeClient.AssemblyInfoInputs.cache
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/obj/Debug/netcoreapp3.0/PipeClient.AssemblyInfo.cs
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/obj/Debug/netcoreapp3.0/PipeClient.dll
+/Users/amighi/workspace/VSProjects/Concurrency/PipeClient/obj/Debug/netcoreapp3.0/PipeClient.pdb

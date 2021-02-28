@@ -1,0 +1,10 @@
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates.deps.json
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates.runtimeconfig.json
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates.runtimeconfig.dev.json
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates.dll
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/bin/Debug/netcoreapp3.0/Delegates.pdb
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/obj/Debug/netcoreapp3.0/Delegates.AssemblyInfoInputs.cache
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/obj/Debug/netcoreapp3.0/Delegates.AssemblyInfo.cs
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/obj/Debug/netcoreapp3.0/Delegates.dll
+/Users/amighi/workspace/VSProjects/Concurrency/Delegates/obj/Debug/netcoreapp3.0/Delegates.pdb

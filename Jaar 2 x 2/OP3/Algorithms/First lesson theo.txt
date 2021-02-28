@@ -1,0 +1,9 @@
+Algorithms 1st lesson 17 feb 
+------------------------------
+what is data structure?
+	Lists, Arrays, Variables ..etc
+Array: Ordered list of values / Objects that 
+consists of sequence of elements numbered 0,1,2,etc
+Algorithms: Linear/ sequential - Binary search (Only for sorted sequences) 
+Understand Big 0 notation.
+ 
