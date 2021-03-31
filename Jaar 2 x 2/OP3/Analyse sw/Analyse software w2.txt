@@ -1,0 +1,50 @@
+Analyse 7 Software: secondlesson / Afshin 01-03-2021
+---------------------------------------------------------
+what are the steps of requirments elicitations?
+requirment elicitation: system analysis --> breaking whole into parts
+requirments: what system must do -->
+				Functional
+				Non functional
+* Req Engineering
+Why rquirments? 
+
+Name five main techniques in requirments elications?
+
+what are the types of the questions in an interview?
+
+what actions are necessary after the interview?
+
+what are the main features of JAD?
+
+which techniques have maximum user involvments?
+
+which tichniques provide minimum in depth information?
+
+Part 2:
+Activity diagram:
+When can we employ activity diagrams?
+they are used to model the dynamic aspects of a system
+What are the main elements of UML activity diagrams?
+action node, flow, guard, fork/joim, object/signal
+When do we use fork/join nodes?
+helps us to plan a parralel or independent activity that
+can be arranged in different places.
+
+Part 3:
+usage of connectors:
+they can be employed to break the diagram apart
+
+why do we need swimlanes?
+to specify responsibilities of the participants.
+
+in which contexts can we use time events?
+to model a period of time that is important in our activities.
+
+in howmany formats can we start an ctivity diagram?
+
+
+which notations can be used to terminate an activity diagram?
+what is the difference?
+2 ways :
+a Activity final node
+b Flow final node
